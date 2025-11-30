@@ -34,7 +34,7 @@ uesimtun0 ip == 10.45.0.5
 2. 請選擇任意一個封包，並點選右鍵選則decode as...，將TCP port最右邊的current改成http2![Screenshot 2025-11-10 at 1.08.26 PM](https://hackmd.io/_uploads/SkDLmgJgZx.png)
 3. 請找出N11中的IMSI，並觀察是否與N1/N2介面中的一致（需付截圖）？[使用follow功能]
 ![Screenshot 2025-11-11 at 12.40.05 AM](https://hackmd.io/_uploads/ByfbL5klZg.png)
-4. 請找出SMF設定UE的UEAggregateMaximumBitRate是多少Kbs（需付截圖）?[使用follow功能]
+4. 請找出SMF設定UE的SessionAmbr是多少Kbs?並解釋與N2介面的UEAggregateMaximumBitRate有什麼關係？（需付SMF與NGAP/NAS的截圖）?[使用follow功能]
 5. 請問為什麼需要使用follow功能？
 
 ### E. N3介面
